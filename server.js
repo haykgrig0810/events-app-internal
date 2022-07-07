@@ -74,6 +74,7 @@ app.use((err, req, res, next) => {
 });
 
 // this is my first change
+// this is new branch changes
 const SERVICE_PORT = process.env.SERVICE_PORT ? process.env.SERVICE_PORT : 8082;
 const server = app.listen(SERVICE_PORT, () => {
     const host = server.address().address;
